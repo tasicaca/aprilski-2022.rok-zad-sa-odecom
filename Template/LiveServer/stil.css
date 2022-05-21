@@ -1,0 +1,64 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.glavniDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*flex: 1 0 auto;*/
+}
+.kontejner {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    flex: 1 0 auto;
+    max-width: 33%;
+    min-width: 20%;
+    min-width: 500px;
+  
+}
+
+.kontForma {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+}
+
+.kontForma1 {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    flex:1 0 auto;
+    width: 20%;
+}
+
+.kontForma2 {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    flex:1 0 auto;
+    width: 80%;
+}
+.divZaCrtanjeNadjenihProizvoda
+{
+    background-color: bisque;
+    margin: 3%;
+    width: 40%; /*samo dodas procente i to je fleksibilan dizajn*/
+    
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+.kontForma2KojiMozeDaSeBrise
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 253, 143);
+}
